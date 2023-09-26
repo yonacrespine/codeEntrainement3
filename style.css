@@ -1,0 +1,74 @@
+html, body, section {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.myHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+   padding-right:30px;
+    margin-bottom: 80px;
+    position: sticky;
+    top:0;
+    right: 0;
+    
+}
+.myHeader a{
+    color: rgb(231, 218, 200);
+    text-decoration: none;
+    font-size: 28px;
+}
+.myHeader a:hover{
+    color: rgb(239, 188, 126);
+    text-decoration: none;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image:url(assets/images/flower.jpg);
+    background-size: cover;
+}
+
+.imgMain{
+    height: 600px;
+    width: 400px;
+}
+.myImageInsertion{
+    display: flex;
+    justify-content: space-evenly ;
+   
+   
+   
+
+}
+
+.myAppli{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+
+}
+.sousTitre{
+display: inline-block;
+border: 2px solid rgb(119, 70, 92);
+text-align: center;
+margin-left:120px;
+color: antiquewhite;
+background-color:  rgb(119, 70, 92);
+}
+.sousTitre p{
+    margin: 10px 20px 10px 20px ;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(208, 171, 187);
+    color: antiquewhite;
+    font-size: 20px;
+}
